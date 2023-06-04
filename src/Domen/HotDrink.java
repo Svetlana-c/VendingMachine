@@ -13,7 +13,7 @@ public class HotDrink extends Product{
          * @throws Exception
          */
 
-    public HotDrink(int productId, String productName, String productCategory, double price) throws Exception {
+    public HotDrink(int productId, String productName, String productCategory, double price, int temperature) throws Exception {
         super(productId, productName, productCategory, price);
         this.temperature = temperature;
     }
